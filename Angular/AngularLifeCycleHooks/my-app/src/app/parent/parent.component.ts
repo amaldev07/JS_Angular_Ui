@@ -13,9 +13,9 @@ export class ParentComponent implements OnInit {
     debugger;
   }
   ngOnInit() {
-    // setInterval(() => {
-    //   // this.currentItem = '' + Math.random();
-    // }, 1000)
+    setInterval(() => {
+      this.currentItem = '' + Math.random();
+    }, 1000)
     this.getRandom();
   }
   getRandom() {
